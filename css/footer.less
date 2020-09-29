@@ -1,0 +1,115 @@
+//
+//
+//
+@color_border : #393939;
+.footer {
+    color: white;
+    background-color: #2f2f2f;
+    font-size: 12px;
+    font-weight: 500;
+.footer__top {
+    width: 1140px;
+    margin : 0 auto;
+    display: flex;
+    flex-direction: row;
+    height: 304px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+
+    .footer__top-title {
+        border-bottom: 1px solid @color_border;
+        padding-bottom: 30px;
+    }
+    .footer__bottom {
+        border-top: 1px solid @color_border;
+    }
+}
+.footer__top-about {
+    height: auto;
+    .footer__top-about-text {
+        width: 91.5%;
+        font-size: 15px;
+        padding-top: 1px;
+        line-height: 22px;
+    }
+   
+}
+.footer__top-navigation {
+    width: 64%;
+    margin: 0 auto;
+    height: auto;
+    .footer__top-navigation-list {
+        display: flex;
+        flex-direction: column;
+        height: 182px;
+        flex-wrap: wrap;
+        line-height: 20px;
+        font-size: 14px;
+        padding: 0 0 0 2px;
+        width: 123%;
+      
+    }
+    .item {
+        padding: 5px 0px;
+        list-style-type: none;
+        a {
+            text-decoration: none;
+            color : white;
+            &:hover {
+                text-decoration: underline;
+            }
+            
+        }
+    }
+}
+.footer_top-location {
+    padding-left: 22px;
+}
+.footer_top-location-address {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    line-height: 32px;
+    margin-top: 22px;
+    padding-left: 1px;
+    letter-spacing: 0.5px;
+    .far, .fas{
+        padding-right: 14px;
+    }
+    .footer_top-add {
+        display: flex;
+        font-size: 14px;
+        font-weight: 500;
+        align-items: baseline;
+        margin-top: -9px;
+        line-height: 38px;
+    }
+}
+.footer__bottom {
+    border-top: 1px solid #393939;
+    .footer__bottom-container {
+        max-width: 1140px;
+        margin : 0 auto;
+        display: flex;
+        flex-direction: row;
+        .footer__bottom-copy {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 15px;
+            padding: 8px 0px 15px;
+            i {
+                color: red
+            }
+        }
+            .footer__bottom-card {
+             display: flex;
+             margin: auto;
+             margin-right: 0;
+                .fab {
+                 font-size: 23px;
+                 color: white;
+                 padding-left: 5px;
+                }
+            }
+        }
+    }
+}

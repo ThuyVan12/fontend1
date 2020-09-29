@@ -1,0 +1,252 @@
+/* Mobile*/
+@media (max-width: 738px){
+   .hide-on-mobile {
+       display: none;
+   }
+   /* Header */
+   .header {
+       margin-top: 2em;
+       .header__nav-logo {
+        text-align: center;
+        img {
+            width: 80%;
+            }
+         }
+        .row {
+            flex-wrap: nowrap;
+        }
+        .header__nav-cart {
+            margin-top: 0;
+            a {
+                font-size: 100%;
+                padding-left: 16px;
+                img{
+                    width: 120%;
+                }
+            }
+        }
+ 
+   }
+   
+   .container {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2em;
+   }
+
+   /* Product */
+    .container__product {
+        .container__product-text h4 
+        {
+         font-size: 21px;
+        }
+        img {
+        width: 100%;
+        }
+    }   
+ /* Blog*/
+    .blog {
+        height: 310px;
+        .blog__container {
+             width: 85%;
+             margin-top: 6%;
+            .blog__container-texts {
+                padding: 28px 0 0 9px;
+                .blog__container-text {
+                    font-size: 12px;
+                }
+                .blog__container-title {
+                    font-size: 15px;
+               }   
+            }
+        }
+    }
+/* footer */
+    .footer .footer__top {
+    width: 100%;
+    height: auto;
+    font-size: 10px;
+    margin:0;
+    }
+    .footer .footer__bottom
+    .footer__bottom-container {
+        max-width: 100%;
+         margin: 0 auto;
+       .footer__bottom-copy{
+            font-size: 14px;
+        }
+    }
+}
+/*
+----------------------------------------------------------------------------------------------*/
+
+/* tablet */
+@media (min-width: 739px) and (max-width: 1199px) {
+    .header__nav-menu--pc, .container__ads--mobile, .blog__post-item--mobile  {
+        display: none;
+    }
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    /* Header*/
+    .header__nav-cart {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 8px;
+        padding-right: 16px;
+    }
+    .header__nav .header__nav-logo {
+        text-align: center;
+    }
+    .header__nav-menu--mobile .fas {
+        padding-right: 41px;
+        font-size: 165%;
+    }
+    .container {
+        .container__ads{
+            width: 100%;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+           
+            .container__ads-1 {
+                height: 100%;
+                .container__ads-1-text {
+                    font-size: 22.5px;
+                }
+                .container__ads-1-link .container__ads-1-btn {
+                    border: none;
+                    background-color: #8262b5;
+                    width: 88px;
+                    height: 34px;
+                    color: white;
+                    font-size: 12px;
+                    margin-left: 191px;
+                    position: absolute;
+                    left: 23%;
+                    bottom: 24%;
+                }
+           }
+            .container__ads-rght {
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .container__ads-rght-2 {
+                    height: 40.5%;
+                    .container__ads-2-text-1 {
+                        top: 35%;
+                        left: 15.5%;
+                        font-size: 12px;
+                    }
+                    .container__ads-2-text-2 {
+                        font-size: 13px;
+                        top: 49%;
+                        right: 26%;
+                        word-spacing: 1px;
+                        letter-spacing: 0.5px;
+                    }
+                }
+                .container__ads-3-text-1 {
+                    font-size: 14px;
+                }
+                .container__ads-3-text-2 {
+                    font-size: 16px;
+                    top: 45%;
+                    left: 11%;
+                }
+                .container__ads-rght-3 a {
+                    position: absolute;
+                    left: 7%;
+                    bottom: 18%;
+                    .container__ads-rght-3-btn {
+                        border: none;
+                        background-color: #8262b5;
+                        width: 88px;
+                        height: 34px;
+                        color: white;
+                        font-size: 12px;
+                    }
+               }
+            }
+    }
+    /*Product*/
+    .container__product {
+        /* max-width: 1140px; */
+        margin: auto;
+        margin-top: 4.5em;
+        max-width: 90%;
+        .row {
+            flex-wrap: wrap;
+        }
+        img {
+            width: 100%;
+        }
+    }
+
+    /*Blog*/
+    .blog {
+        margin-top:0;
+        height: 500px;
+     .blog__container {
+            max-width: 90%;
+            .blog__container-texts {
+                padding: 21px 0 0 9px;
+            }
+            .blog__container-title {
+                font-size: 20px;
+            }
+    }
+    .blog__post {
+        margin-top: 0;
+        .blog__post-item h3 {
+            font-size: 11px;
+            padding: 0px 5px;
+        }
+        .blog__post-item .blog__post-item-text {
+            font-size: 11px;
+            padding: 0 7px 7px;
+            margin-bottom: 12px;
+        }
+        .blog__post-item-evalutae {
+
+            font-size: 12px;
+            padding-left: 14px;
+            padding-bottom: 12px;
+        }
+    }
+}
+ 
+    /*footer*/
+    .footer {
+        .footer__top {
+            height: auto;
+            max-width: 90%;
+            h2 {
+            font-size: 12px;
+            }
+            .footer__top-about-text {
+                font-size: 12px;
+            }
+            .footer__top-navigation-list {
+             font-size: 12px;
+            }
+            .footer_top-location-address  {
+                line-height: 15px;
+                width: 100%;
+                padding-left: 0px;
+                .far, .fas {
+                    padding-right: 8px;
+                 }
+                .footer_top-add {
+                font-size: 11px;
+                margin-top: 0px;
+                }
+            }
+        }
+    }
+}
+
